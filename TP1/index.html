@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+<body>
+<form action="" id="monFormulaire">
+<div class="col-xs-10 col-xs-offset-1">
+    <div class="row">
+        <div class="col-xs-6 form-group">
+            <div class="col-xs-4">
+                <label for="civilite">Civilité</label>
+                <select id="civilite" name="civilite" class="form-control">
+                    <option value="1">M.</option>
+                    <option value="2">Mme.</option>
+                </select>
+            </div>
+            <div class="col-xs-4">
+                <label for="prenom">Prenom</label>
+                <input type="text" name="prenom" class="form-control">
+            </div>
+            <div class="col-xs-4">
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" class="form-control">
+            </div>
+        </div>
+
+        <div class="col-xs-6 form-group">
+            <div class="col-xs-4">
+                <label for="secu">N° de sécurité sociale</label>
+                <input type="text" name="secu" class="form-control">
+            </div>
+            <div class="col-xs-4">
+                <label for="email">Adresse email</label>
+                <input type="email" name="email" class="form-control">
+            </div>
+            <div class="col-xs-4">
+                <label for="tel">N° de téléphone</label>
+                <input type="tel" name="tel" class="form-control">
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-6 form-group">
+            <div class="col-xs-6">
+                <label for="adresse">Adresse</label>
+                <input type="text" name="adresse" class="form-control">
+            </div>
+            <div class="col-xs-6">
+                <label for="iban">IBAN</label>
+                <input type="text" name="iban" class="form-control">
+            </div>
+        
+        </div>
+
+        <div class="col-xs-6 form-group">
+            <div class="col-xs-6">
+                <label for="date">Date de naissance</label>
+                <input type="date" name="date" class="form-control">
+            </div>
+            <div class="col-xs-6">
+                <label for="dep">Département de naissance</label>
+                <input type="text" name="dep" class="form-control">
+            </div>
+            
+        </div>
+    </div>
+
+    <button id="submit" type="submit" class="btn btn-primary">Valider</button>
+</div>
+</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.js"></script>
+<script type="text/javascript" src="ressources/validation.js"></script>
+
+</body>
+</html>
